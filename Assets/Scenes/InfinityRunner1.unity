@@ -259,7 +259,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14111111e87ca042b9e1e85439e99a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalMovementDelta: 5
+  horizontalMovementDelta: 1.8
+  movementInterval: 1
+  movementEase: 5
+  anim: {fileID: 442794890}
+--- !u!95 &442794890 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6626733629775485544, guid: 09c0e81061da1da4c996912069176bc3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7793502830166121844}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,7 +649,7 @@ PrefabInstance:
     - target: {fileID: 6626733629767808392, guid: 09c0e81061da1da4c996912069176bc3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6626733629767808392, guid: 09c0e81061da1da4c996912069176bc3,
         type: 3}
@@ -650,7 +659,7 @@ PrefabInstance:
     - target: {fileID: 6626733629767808392, guid: 09c0e81061da1da4c996912069176bc3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.0660634
+      value: -2.6266
       objectReference: {fileID: 0}
     - target: {fileID: 6626733629767808392, guid: 09c0e81061da1da4c996912069176bc3,
         type: 3}
